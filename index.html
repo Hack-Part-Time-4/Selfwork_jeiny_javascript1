@@ -7,14 +7,64 @@
     <title>Practica</title>
 </head>
 <body>    
-    <script>
-        let saludo
-        let uno = "Bienvenido"
-        let dos = "a mi pagina"
+    <script> //1
+        let dos = "¡Hola!"
+        let tres = "Bienvenido"
+        let texto="texto"
+        let numero=1
+        let logico=true
+        let indefinido
+        let num=5
+        let a="Hola"
+        let b="¿que tal?"
+        let c
+        let d
+        let e=1.123456
+        let cadena1="Hola"
+        let cadena2="Mundo"
 
+        
+        //2
         alert("¡Empezamos con javascript!")
-        alert("Hola soy un estudiante Hackademy")
-        alert(uno+" "+dos)
+        //3
+        console.log("Hola soy un estudiante Hackademy")
+        //4
+        let uno=1
+        //5
+        alert(dos+" "+tres)
+        //6
+        console.log(typeof texto)
+        console.log(typeof numero)
+        console.log(typeof logico)
+        console.log(typeof indefinido)
+        //7
+        console.log("num "+num*2)
+        //8
+        c=a+" "+b
+        console.log(c)
+        //9
+        d=String(num)        
+        console.log(num+d)
+        //10
+        decimal=e.toFixed(3)
+        console.log(decimal)
+        console.log(typeof decimal)
+        //11
+        let suma = cadena1+cadena2
+        let longitud=suma.length
+        console.log(longitud)
+        //12
+        let numeroCaracteres=longitud
+        console.log(`La cadena tiene ${numeroCaracteres} caracteres`)
+        //13
+        console.log(10+"1")
+        console.log(typeof (10+"1"))
+        console.log(10-"1")
+        console.log(typeof (10-"1"))
+        //14
+        let string="Hey Tú, cómo te llamas. ¡Hey, estoy hablando contigo!"
+        string=string.replace("contigo","yo")
+        console.log(string)
     </script>
 </body>
 </html>
